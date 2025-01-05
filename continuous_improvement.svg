@@ -23,7 +23,7 @@
 
     <!-- Header Text with Glow -->
     <text x="50%" y="20" font-family="Roboto, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" dominant-baseline="middle" text-anchor="middle" filter="url(#glow)">
-        CONTINUOUS IMPROVEMENT TEAM
+        SOFTWARE ISSUES
     </text>
 
     <!-- Gear Emoticons -->
