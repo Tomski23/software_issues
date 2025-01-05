@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="40" viewBox="0 0 800 40">
+    <!-- Gradient Background -->
+    <defs>
+        <!-- Company Brand Gradient -->
+        <linearGradient id="brand-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#C9E0CA;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#8DB88B;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#155200;stop-opacity:1" />
+        </linearGradient>
+
+        <!-- Glow Effect for Text -->
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="3.5" result="coloredBlur" />
+            <feMerge>
+                <feMergeNode in="coloredBlur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="800" height="40" fill="url(#brand-gradient)" />
+
+    <!-- Header Text with Glow -->
+    <text x="50%" y="20" font-family="Roboto, sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold" dominant-baseline="middle" text-anchor="middle" filter="url(#glow)">
+        CONTINUOUS IMPROVEMENT TEAM
+    </text>
+
+    <!-- Gear Emoticons -->
+    <!-- Replace "⚙" with any Unicode symbol of your choice -->
+    <text x="100" y="25" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" dominant-baseline="middle" text-anchor="middle">
+        ⚙
+    </text>
+    <text x="200" y="25" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" dominant-baseline="middle" text-anchor="middle">
+        ⚙
+    </text>
+    <text x="300" y="25" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" dominant-baseline="middle" text-anchor="middle">
+        ⚙
+    </text>
+    <text x="400" y="25" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" dominant-baseline="middle" text-anchor="middle">
+        ⚙
+    </text>
+    <text x="500" y="25" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" dominant-baseline="middle" text-anchor="middle">
+        ⚙
+    </text>
+    <text x="600" y="25" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" dominant-baseline="middle" text-anchor="middle">
+        ⚙
+    </text>
+
+    <!-- Dashed Line -->
+    <line x1="100" y1="20" x2="700" y2="20" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="5,5">
+        <animate attributeName="stroke-dashoffset" from="0" to="20" dur="2s" repeatCount="indefinite" />
+    </line>
+</svg>
